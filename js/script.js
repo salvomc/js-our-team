@@ -37,3 +37,5 @@ const teamArray =
         "image":"barbara-ramos-graphic-designer.jpg",
     }
 ]
+
+console.log(teamArray);

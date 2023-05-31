@@ -48,9 +48,10 @@ for(let i=0; i<teamArray.length;i++)
 
     let card =  `
                     <div class="card">
-                        <h3>${teamMember.image}</h3>
-                        <h3>${teamMember.name}</h3>
-                        <p>${teamMember.role}</p>
+                        <img src="./img/${teamMember.image}"> 
+                        <div>
+                            <h3>${teamMember.name}</h3>
+                            <p>${teamMember.role}</p>
                         </div>
                     </div>
                 `
